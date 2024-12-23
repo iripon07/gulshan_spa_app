@@ -1,111 +1,49 @@
-import Link from "next/link";
-import {
-  FaAngleRight,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaPaperPlane,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary font-semibold text-white">
-      <div className="container mx-auto">
-        {/* <h1>Quality Finds, Delivered with Love!</h1> */}
-
-        <div className="font-poppins grid grid-cols-1 justify-between gap-6 px-4 py-[150px] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <footer className="">
+      <div className="container mx-auto py-16">
+        <div className="flex justify-between items-center text-center">
           <div>
-            <h3 className="font-prostoOne text-xl font-medium md:text-2xl lg:text-[28px] xl:text-3xl">
-              About us
-            </h3>
-            <div className="my-3 w-[20px] border-2 border-secondary md:my-4 lg:my-5 xl:my-6" />
-            <p className="pr-5 text-xs md:text-sm lg:text-base xl:text-lg">
-              Shop cutting-edge gadgets and accessories with ease. Your one-stop
-              online store for quality tech, unbeatable prices, and top-notch
-              service.
+            <p className="text-[#323232] text-lg mb-7">About us</p>
+            <p className="text-[#757575] text-sm">
+              Come in and our therapists provide the perfect treatment. <br />{" "}
+              Our massage is specially designed to help you achieve the <br />{" "}
+              perfect mind-body harmony
             </p>
           </div>
           <div>
-            <h3 className="font-prostoOne text-xl font-medium md:text-2xl lg:text-[28px] xl:text-3xl">
-              Get in Touch
-            </h3>
-            <div className="my-3 w-[20px] border-2 border-secondary md:my-4 lg:my-5 xl:my-6" />
-            <p className="pr-5 text-xs md:text-sm lg:text-base xl:text-lg">
-              34/8, Charbagdanga, Chapainawabganj. support@technest.com <br />{" "}
-              +00 111 111 11
+            <p className="text-[#323232] text-lg mb-7">Open Hours</p>
+            <p className="text-[#757575] text-sm">
+              Mon-Fri: 9 AM – 6 PM <br /> Saturday: 9 AM – 4 PM <br /> Sunday:
+              Closed
             </p>
           </div>
           <div>
-            <h3 className="font-prostoOne text-xl font-medium md:text-2xl lg:text-[28px] xl:text-3xl">
-              Pages
-            </h3>
-            <div className="my-3 w-[20px] border-2 border-secondary md:my-4 lg:my-5 xl:my-6" />
-            <ul className="space-y-1 md:text-lg text-base font-medium text-white">
-              <li className="flex items-center justify-start duration-300 hover:text-secondary">
-                <FaAngleRight className="mr-2 text-secondary" />
-                <Link href="/">Home</Link>
-              </li>
-              <li className="flex items-center justify-start duration-300 hover:text-secondary">
-                <FaAngleRight className="mr-2 text-secondary" />
-                <Link href="/shop">Shop</Link>
-              </li>
-              <li className="flex items-center justify-start duration-300 hover:text-secondary">
-                <FaAngleRight className="mr-2 text-secondary" />
-                <Link href="/news">News</Link>
-              </li>
-              <li className="flex items-center justify-start duration-300 hover:text-secondary">
-                <FaAngleRight className="mr-2 text-secondary" />
-                <Link href="/contact">Contact</Link>
-              </li>
-              <li className="flex items-center justify-start duration-300 hover:text-secondary">
-                <FaAngleRight className="mr-2 text-secondary" />
-                <Link href="/about">About</Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-prostoOne text-xl font-medium md:text-2xl lg:text-[28px] xl:text-3xl">
-              Subscribe
-            </h3>
-            <div className="my-3 w-[20px] border-2 border-secondary md:my-4 lg:my-5 xl:my-6" />
-            <p className="xl:mb-6 lg:mb-5 md:mb-4 mb-3 text-base font-normal">
-              Subscribe to our mailing list to get the latest updates.
+            <p className="text-[#323232] text-lg mb-7">About us</p>
+            <p className="text-[#757575] text-sm">
+              176 W street name, New York, NY 10014 <br /> Email:
+              info@yoursite.com <br />
+              Telephone: +1(800)123-4566
             </p>
-            <form className="flex w-full items-center space-x-3">
-              <input
-                type="text"
-                placeholder="Email"
-                className="rounded-l-xl w-full bg-[#012738] p-4 font-medium outline-none placeholder:text-white"
-              />
-              <button
-                type="submit"
-                className="rounded-r-xl  bg-[#012738] p-4 text-secondary duration-300 hover:bg-secondary hover:text-black"
-              >
-                <FaPaperPlane className="text-2xl" />
-              </button>
-            </form>
           </div>
         </div>
-      </div>
 
-      <div className="border-t-[1.5px] border-secondary">
-        <div className="container mx-auto p-4">
-          <div className="flex flex-col items-center justify-between md:flex-row">
-            <h6 className="mb-2 text-xs font-normal md:mb-0 md:text-[15px]">
-              Copyrights © 2024 -{" "}
-              <span className="text-base font-bold text-secondary">
-                Md. Asadul Islam
-              </span>
-              , All Rights Reserved.
-            </h6>
-            <div className="flex space-x-6 text-xl md:text-2xl">
-              <FaFacebookF className="duration-300 hover:text-secondary" />
-              <FaXTwitter className="duration-300 hover:text-secondary" />
-              <FaInstagram className="duration-300 hover:text-secondary" />
-              <FaLinkedinIn className="duration-300 hover:text-secondary" />
-            </div>
-          </div>
+        <div className="border-[0.5px] border-gray-200 mt-12"></div>
+
+        <div className="my-12 flex text-secondary justify-center items-center space-x-8 text-2xl">
+          <FaFacebookF className="hover:text-primary duration-300" />
+          <FaTwitter className="hover:text-primary duration-300" />
+          <FaInstagram className="hover:text-primary duration-300" />
+        </div>
+
+        <div className="text-center text-sm">
+          <p className="text-secondary">
+            <span className="text-primary">Gulshan Spa</span> © 2024 All Rights
+            Reserved <span className="text-[#f9a392]">Terms of Use</span> and
+            <span className="text-primary"> Privacy Policy</span>
+          </p>
         </div>
       </div>
     </footer>
