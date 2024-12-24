@@ -13,6 +13,11 @@ export default {
         secondary: "#757575",
         grey: "#555",
       },
+      fontFamily: {
+        poppins: ["var(--font-poppins)", "sans-serif"],
+        prosto: ["var(--font-prosto)", "cursive"],
+        handwriting: ['"Monsieur La Doulaise"', "cursive"],
+      },
     },
   },
   plugins: [],
