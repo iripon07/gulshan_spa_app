@@ -18,6 +18,21 @@ export default {
         prosto: ["var(--font-prosto)", "cursive"],
         handwriting: ['"Monsieur La Doulaise"', "cursive"],
       },
+       keyframes: {
+        typing: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' },
+        },
+        blink: {
+          '0%, 100%': { borderColor: 'transparent' },
+          '50%': { borderColor: 'black' },
+        },
+      },
+      animation: {
+        typing: 'typing 3s steps(20, end) forwards',
+        blink: 'blink 0.5s step-end infinite',
+      },
+    
     },
   },
   plugins: [],
