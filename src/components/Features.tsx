@@ -1,4 +1,12 @@
-import DryMassage from "@/assets/DryMassage.png";
+// import DryMassage from "@/assets/DryMassage.png";
+import DryMassage from "@/assets/dryMassage.avif";
+import OilMassage from "@/assets/OilMassage.jpg";
+import HotMassage from "@/assets/HotMassage.jpg";
+import OurTeam from "@/assets/OurTeam.jpg";
+import TwoGirls from "@/assets/TwoGirls.avif";
+import DeepTissueMassage from "@/assets/DeepTissueMassage.jpg";
+import NuruMassage from "@/assets/nuruMassage.webp";
+import BodyToBodyMassage from "@/assets/bodyTobody.jpg";
 import Image from "next/image";
 
 const Features = () => {
@@ -16,9 +24,14 @@ const Features = () => {
 
         <div className="grid lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6  py-10">
           <div className="shadow-md rounded-md hover:shadow-none duration-300">
-            <Image src={DryMassage} alt="Dry Massage" className="w-full" />
-            <div className="p-6">
-              <p className="text-primary text-2xl font-poppins font-semibold my-4">
+            <Image
+              src={DryMassage}
+              alt="Dry Massage"
+              className="w-full h-[200px] rounded-t-md"
+              quality={100}
+            />
+            <div className="p-3">
+              <p className="text-primary text-2xl font-poppins font-semibold">
                 Dry Massage
               </p>
               <p className="text-secondary text-base font-prosto font-medium">
@@ -29,9 +42,13 @@ const Features = () => {
             </div>
           </div>
           <div className="shadow-md rounded-md hover:shadow-none duration-300">
-            <Image src={DryMassage} alt="Dry Massage" className="w-full" />
-            <div className="p-6">
-              <p className="text-primary text-2xl font-poppins font-semibold my-4">
+            <Image
+              src={OilMassage}
+              alt="Dry Massage"
+              className="w-full h-[200px] rounded-t-md"
+            />
+            <div className="p-3">
+              <p className="text-primary text-2xl font-poppins font-semibold">
                 Oil Massage
               </p>
               <p className="text-secondary text-base font-prosto font-medium">
@@ -42,9 +59,14 @@ const Features = () => {
             </div>
           </div>
           <div className="shadow-md rounded-md hover:shadow-none duration-300">
-            <Image src={DryMassage} alt="Dry Massage" className="w-full" />
-            <div>
-              <p className="text-primary text-2xl font-poppins font-semibold my-4">
+            <Image
+              src={HotMassage}
+              alt="Dry Massage"
+              className="w-full h-[200px] rounded-t-md"
+              quality={100}
+            />
+            <div className="p-3">
+              <p className="text-primary text-2xl font-poppins font-semibold">
                 Hot Massage
               </p>
               <p className="text-secondary text-base font-prosto font-medium">
@@ -54,10 +76,15 @@ const Features = () => {
             </div>
           </div>
           <div className="shadow-md rounded-md hover:shadow-none duration-300">
-            <Image src={DryMassage} alt="Dry Massage" className="w-full" />
-            <div>
+            <Image
+              src={OurTeam}
+              alt="Dry Massage"
+              className="w-full h-[200px] rounded-md-t"
+              quality={100}
+            />
+            <div className="p-3">
               {" "}
-              <p className="text-primary text-2xl font-poppins font-semibold my-4">
+              <p className="text-primary text-2xl font-poppins font-semibold">
                 Our Team
               </p>
               <p className="text-secondary text-base font-prosto font-medium">
@@ -67,9 +94,14 @@ const Features = () => {
             </div>
           </div>{" "}
           <div className="shadow-md rounded-md hover:shadow-none duration-300">
-            <Image src={DryMassage} alt="Dry Massage" className="w-full" />
-            <div>
-              <p className="text-primary text-2xl font-poppins font-semibold my-4">
+            <Image
+              src={TwoGirls}
+              alt="Dry Massage"
+              className="w-full h-[200px] rounded-t-md"
+              quality={100}
+            />
+            <div className="p-3">
+              <p className="text-primary text-2xl font-poppins font-semibold">
                 Two Girls Massage
               </p>
               <p className="text-secondary text-base font-prosto font-medium">
@@ -79,9 +111,14 @@ const Features = () => {
             </div>
           </div>
           <div className="shadow-md rounded-md hover:shadow-none duration-300">
-            <Image src={DryMassage} alt="Dry Massage" className="w-full" />
-            <div className="p-6">
-              <p className="text-primary text-2xl font-poppins font-semibold my-4">
+            <Image
+              src={DeepTissueMassage}
+              alt="Dry Massage"
+              className="w-full h-[200px] rounded-t-md"
+              quality={100}
+            />
+            <div className="p-3">
+              <p className="text-primary text-2xl font-poppins font-semibold">
                 Deep Tissue Massage
               </p>
               <p className="text-secondary text-base font-prosto font-medium">
@@ -92,9 +129,14 @@ const Features = () => {
             </div>
           </div>
           <div className="shadow-md rounded-md hover:shadow-none duration-300">
-            <Image src={DryMassage} alt="Dry Massage" className="w-full" />
-            <div className="p-6">
-              <p className="text-primary text-2xl font-poppins font-semibold my-4">
+            <Image
+              src={NuruMassage}
+              alt="Dry Massage"
+              className="w-full h-[200px] rounded-t-md"
+              quality={100}
+            />
+            <div className="p-3">
+              <p className="text-primary text-2xl font-poppins font-semibold">
                 Nuru Massage
               </p>
               <p className="text-secondary text-base font-prosto font-medium">
@@ -105,9 +147,14 @@ const Features = () => {
             </div>
           </div>{" "}
           <div className="shadow-md rounded-md hover:shadow-none duration-300">
-            <Image src={DryMassage} alt="Dry Massage" className="w-full" />
-            <div className="p-6">
-              <p className="text-primary text-2xl font-poppins font-semibold my-4">
+            <Image
+              src={BodyToBodyMassage}
+              alt="Dry Massage"
+              className="w-full h-[200px] rounded-t-md"
+              quality={100}
+            />
+            <div className="p-3">
+              <p className="text-primary text-2xl font-poppins font-semibold">
                 Body to Body Massage
               </p>
               <p className="text-secondary text-base font-prosto font-medium">
