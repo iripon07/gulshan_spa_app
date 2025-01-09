@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Testimonial from "../components/Testimonial";
 import Banner from "@/components/Banner";
 import Services from "@/components/Services";
+import Features from "@/components/Features";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Banner />
       <Bookings />
+      <Features />
       <Services />
       <MakeAppointment />
       <Testimonial />

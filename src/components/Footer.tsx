@@ -3,8 +3,8 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="">
-      <div className="container mx-auto py-16">
-        <div className="flex justify-between items-center text-center">
+      <div className="container mx-auto py-16 px-6">
+        <div className="flex justify-between items-center text-center gap-x-4">
           <div>
             <p className="text-[#323232] text-lg mb-7">About us</p>
             <p className="text-[#757575] text-sm">
@@ -13,7 +13,7 @@ const Footer = () => {
               perfect mind-body harmony
             </p>
           </div>
-          <div>
+          <div >
             <p className="text-[#323232] text-lg mb-7">Open Hours</p>
             <p className="text-[#757575] text-sm">
               Mon-Fri: 9 AM – 6 PM <br /> Saturday: 9 AM – 4 PM <br /> Sunday:

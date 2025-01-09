@@ -5,6 +5,7 @@ const Services = () => {
   return (
     <div className="bg-pink-50">
       <div className="container mx-auto py-6">
+
         <div className=" text-center w-full md:w-[50%] xl:w-[35%] mx-auto px-6">
           <p className="xl:text-6xl md:text-4xl text-3xl text-primary font-poppins font-semibold mb-2">
             Our Services
@@ -15,14 +16,16 @@ const Services = () => {
             with dedicated services or board.
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row ">
+        
+        <div className="flex flex-col lg:flex-row pt-10">
           <div className="lg:w-1/2 w-full">
             <Image className="w-full" src={herbal} alt="Herbal for spa" />
           </div>
 
           <div className="lg:w-1/2 w-full flex flex-col md:flex-row">
+
             <div className="lg:w-1/2 w-full">
-              <div className="bg-gray-100 p-4">
+              <div className="bg-gray-100 p-6">
                 <p className="text-gray-600 font-semibold font-poppins text-xl mb-2 uppercase">
                   1. Dry massage: 3500
                 </p>
@@ -122,6 +125,7 @@ const Services = () => {
                 </p>
               </div>{" "}
             </div>
+
           </div>
         </div>
       </div>
