@@ -1,17 +1,15 @@
 "use client";
 
-import Image from "next/image";
-import avatar1 from "@/assets/avatar2.webp";
-import avatar2 from "@/assets/johnyDepp.jpg";
 import avatar3 from "@/assets/111.avif";
 import avatar4 from "@/assets/121.jpg";
-
-
-import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
+import avatar1 from "@/assets/avatar2.webp";
+import avatar2 from "@/assets/johnyDepp.jpg";
+import Image from "next/image";
+import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import { Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const Testimonial = () => {
   return (

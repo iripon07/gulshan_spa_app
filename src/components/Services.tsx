@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import herbal from "@/assets/herbal.png";
 import "animate.css";
+import Image from "next/image";
 
 const Services = () => {
   return (

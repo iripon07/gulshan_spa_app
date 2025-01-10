@@ -28,27 +28,26 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative">
             <div
-              className="h-[400px] bg-[url('/assets/Banner1.jpg')] md:h-[500px] lg:h-[600px]"
+              className="h-[400px] bg-[url('/assets/1.jpg')] md:h-[500px] lg:h-[600px]"
               style={{
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 width: "100%",
-
                 position: "relative",
               }}
             >
-              <div className="container mx-auto flex h-full items-center border-2 border-red-500">
+              <div className="container mx-auto flex h-full items-center">
                 <div className="w-[80%] px-6 md:w-[65%] lg:w-1/2">
                   <p className="mb-1 font-poppins text-sm text-white md:mb-3 md:text-lg">
-                    Finance and consulting company
+                    Transforming Stress Into Serenity
                   </p>
                   <p className="font-prosto text-3xl text-white md:text-4xl xl:text-5xl">
-                    Creative and vision with digital experience!
+                    Wellness Meets Elegance, Redefining Relaxation
                   </p>
                   <p className="my-3 font-poppins text-sm text-white md:my-4 md:text-base lg:my-6">
-                    We are passionate about solving problems through creative
-                    communications.{" "}
+                    We are dedicated to rejuvenating your mind and body through
+                    exceptional spa experiences.
                   </p>
                   <button className="bg-primary px-5 py-2 font-bold text-white duration-300 hover:bg-white hover:text-primary">
                     Booking Now
@@ -61,27 +60,26 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative">
             <div
-              className="h-[400px] bg-[url('/assets/Banner1.jpg')] md:h-[500px] lg:h-[600px]"
+              className="h-[400px] bg-[url('/assets/2.jpg')] md:h-[500px] lg:h-[600px]"
               style={{
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 width: "100%",
-
                 position: "relative",
               }}
             >
-              <div className="container mx-auto flex h-full items-center border-2 border-red-500">
+              <div className="container mx-auto flex h-full items-center">
                 <div className="w-[80%] px-6 md:w-[65%] lg:w-1/2">
                   <p className="mb-1 font-poppins text-sm text-white md:mb-3 md:text-lg">
-                    Finance and consulting company
+                    The Art of Relaxation and Rejuvenation
                   </p>
                   <p className="font-prosto text-3xl text-white md:text-4xl xl:text-5xl">
-                    Creative and vision with digital experience!
+                    Innovative Spa Experiences, Timeless Relaxation
                   </p>
                   <p className="my-3 font-poppins text-sm text-white md:my-4 md:text-base lg:my-6">
-                    We are passionate about solving problems through creative
-                    communications.{" "}
+                    Passionate about crafting moments of pure relaxation and
+                    well-being just for you.
                   </p>
                   <button className="bg-primary px-5 py-2 font-bold text-white duration-300 hover:bg-white hover:text-primary">
                     Booking Now
@@ -94,27 +92,26 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative">
             <div
-              className="h-[400px] bg-[url('/assets/Banner1.jpg')] md:h-[500px] lg:h-[600px]"
+              className="h-[400px] bg-[url('/assets/3.jpg')] md:h-[500px] lg:h-[600px]"
               style={{
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 width: "100%",
-
                 position: "relative",
               }}
             >
-              <div className="container mx-auto flex h-full items-center border-2 border-red-500">
+              <div className="container mx-auto flex h-full items-center">
                 <div className="w-[80%] px-6 md:w-[65%] lg:w-1/2">
                   <p className="mb-1 font-poppins text-sm text-white md:mb-3 md:text-lg">
-                    Finance and consulting company
+                    Wellness Awaits: Indulge in Pure Comfort
                   </p>
                   <p className="font-prosto text-3xl text-white md:text-4xl xl:text-5xl">
-                    Creative and vision with digital experience!
+                    Where Tranquility and Innovation Unite
                   </p>
                   <p className="my-3 font-poppins text-sm text-white md:my-4 md:text-base lg:my-6">
-                    We are passionate about solving problems through creative
-                    communications.{" "}
+                    We believe in restoring your inner calm through personalized
+                    care and attention.
                   </p>
                   <button className="bg-primary px-5 py-2 font-bold text-white duration-300 hover:bg-white hover:text-primary">
                     Booking Now

@@ -3,26 +3,26 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="">
-      <div className="container mx-auto py-16 px-6">
-        <div className="flex justify-between items-center text-center gap-x-4">
+      <div className="container mx-auto px-6 py-16">
+        <div className="flex items-center justify-between gap-x-4 text-center">
           <div>
-            <p className="text-[#323232] text-lg mb-7">About us</p>
-            <p className="text-[#757575] text-sm">
+            <p className="mb-7 text-lg text-[#323232]">About us</p>
+            <p className="text-sm text-[#757575]">
               Come in and our therapists provide the perfect treatment. <br />{" "}
               Our massage is specially designed to help you achieve the <br />{" "}
               perfect mind-body harmony
             </p>
           </div>
-          <div >
-            <p className="text-[#323232] text-lg mb-7">Open Hours</p>
-            <p className="text-[#757575] text-sm">
+          <div>
+            <p className="mb-7 text-lg text-[#323232]">Open Hours</p>
+            <p className="text-sm text-[#757575]">
               Mon-Fri: 9 AM – 6 PM <br /> Saturday: 9 AM – 4 PM <br /> Sunday:
               Closed
             </p>
           </div>
           <div>
-            <p className="text-[#323232] text-lg mb-7">About us</p>
-            <p className="text-[#757575] text-sm">
+            <p className="mb-7 text-lg text-[#323232]">About us</p>
+            <p className="text-sm text-[#757575]">
               176 W street name, New York, NY 10014 <br /> Email:
               info@yoursite.com <br />
               Telephone: +1(800)123-4566
@@ -30,12 +30,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-[0.5px] border-gray-200 mt-12"></div>
+        <div className="mt-12 border-[0.5px] border-gray-200"></div>
 
-        <div className="my-12 flex text-secondary justify-center items-center space-x-8 text-2xl">
-          <FaFacebookF className="hover:text-primary duration-300" />
-          <FaTwitter className="hover:text-primary duration-300" />
-          <FaInstagram className="hover:text-primary duration-300" />
+        <div className="my-12 flex items-center justify-center space-x-8 text-2xl text-secondary">
+          <FaFacebookF className="duration-300 hover:text-primary" />
+          <FaTwitter className="duration-300 hover:text-primary" />
+          <FaInstagram className="duration-300 hover:text-primary" />
         </div>
 
         <div className="text-center text-sm">

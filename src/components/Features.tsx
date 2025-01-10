@@ -1,17 +1,17 @@
-// import DryMassage from "@/assets/DryMassage.png";
+
+import BodyToBodyMassage from "@/assets/bodyTobody.jpg";
+import DeepTissueMassage from "@/assets/DeepTissueMassage.jpg";
 import DryMassage from "@/assets/dryMassage.avif";
-import OilMassage from "@/assets/OilMassage.jpg";
 import HotMassage from "@/assets/HotMassage.jpg";
+import NuruMassage from "@/assets/nuruMassage.webp";
+import OilMassage from "@/assets/OilMassage.jpg";
 import OurTeam from "@/assets/OurTeam.jpg";
 import TwoGirls from "@/assets/TwoGirls.avif";
-import DeepTissueMassage from "@/assets/DeepTissueMassage.jpg";
-import NuruMassage from "@/assets/nuruMassage.webp";
-import BodyToBodyMassage from "@/assets/bodyTobody.jpg";
 import Image from "next/image";
 
 const Features = () => {
   return (
-    <div>
+    <div className="features">
       <div className="container mx-auto px-6">
         <div className="py-3">
           <p className="text-lg font-prosto font-medium text-primary ">
