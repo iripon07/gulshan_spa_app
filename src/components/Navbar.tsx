@@ -86,7 +86,7 @@ const Navbar = () => {
           </div>
 
           <div
-            className={`absolute z-50 flex w-full flex-col bg-primary text-xl font-semibold text-white duration-300 ${open ? "top-[68px]" : "-top-[150px]"} `}
+            className={`absolute z-50 flex w-full flex-col bg-primary text-xl font-semibold text-white duration-300 ${open ? "top-[68px]" : "-top-[250px]"} `}
           >
             <Link
               className="border-b-[1px] border-white py-2 text-center"
