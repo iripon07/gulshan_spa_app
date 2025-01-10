@@ -6,7 +6,7 @@ import "animate.css";
 
 const Services = () => {
   return (
-    <div className="bg-pink-50">
+    <div id="services" className="bg-pink-50">
       <div className="container mx-auto py-6">
         <div className="mx-auto w-full px-6 text-center md:w-[50%] xl:w-[35%]">
           <p className="animate__animated animate__fadeInLeftBig mb-2 font-poppins text-3xl font-semibold text-primary md:text-4xl xl:text-6xl">

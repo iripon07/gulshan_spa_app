@@ -2,7 +2,7 @@
 
 const Address = () => {
   return (
-    <div className="container mx-auto px-6 py-10">
+    <div id="contact" className="container mx-auto px-6 py-10">
       <div className="mx-auto w-full py-2 text-center md:w-[50%] lg:w-[35%]">
         <p className="font-poppins text-2xl font-semibold">
           Call for Booking and Appointment
