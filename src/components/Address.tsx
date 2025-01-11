@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 const Address = () => {
   return (
@@ -12,7 +12,7 @@ const Address = () => {
           consultation or book your appointment instantly!
         </p>
         <p className="font-prosto text-3xl font-semibold text-primary md:text-4xl xl:text-5xl">
-          +88 01935032782
+          +88 01308494176
         </p>
       </div>
       <div className="mt-5">
