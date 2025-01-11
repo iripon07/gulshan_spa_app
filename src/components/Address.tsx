@@ -16,14 +16,38 @@ const Address = () => {
         </p>
       </div>
       <div className="mt-5">
-        <div>
+        <div className="flex flex-col md:flex-row">
+          <div className="flex w-full items-center justify-center text-center md:w-1/2 lg:w-[40%]">
+            <div>
+              <p className="mb-4 text-center font-poppins text-xl font-medium text-black">
+                Contact with Us
+              </p>
+              <p className="text-lg text-[#757575]">
+                Gulshan-1, Road Number: #37,Dhaka-1212
+              </p>
+              <p className="my-2 text-lg font-medium text-black">
+                {" "}
+                Email: info@gulshanpointspacenter
+              </p>
+              <p className="font-poppins text-2xl font-semibold text-black">
+                {" "}
+                Telephone: 01308494176
+              </p>
+            </div>
+          </div>
           <div className="relative h-[400px] w-full text-right">
             <div className="h-full w-full overflow-hidden bg-none">
               <iframe
-                className="h-full w-full border-0"
-                src="https://maps.google.com/maps?width=563&amp;height=400&amp;hl=en&amp;q=sylhet engineering college&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                allowFullScreen
-                loading="lazy"
+                className="h-full w-full"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=101 Gulshan Ave, Dhaka 1212&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                frameBorder="0"
+                scrolling="no"
+                marginHeight={0}
+                marginWidth={0}
+                allowFullScreen={true}
+                aria-hidden="false"
+                tabIndex={0}
+                title="Google Map"
               ></iframe>
             </div>
           </div>

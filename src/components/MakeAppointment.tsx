@@ -1,6 +1,18 @@
-import Link from "next/link";
+"use client"
 
 const MakeAppointment = () => {
+
+
+    const handleWhatsAppClick = () => {
+      const phoneNumber = "01308494176";
+      const message =
+        "Step into tranquility. Welcome to Beauty Point Spa Center – the perfect escape for mind, body, and soul.";
+      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+      window.open(whatsappUrl, "_blank");
+    };
+
+
   return (
     <div className="container mx-auto px-6">
       <div className="bg-[url('/assets/AppointmentBG.webp')] bg-cover bg-fixed bg-center bg-no-repeat">
@@ -28,12 +40,12 @@ const MakeAppointment = () => {
                 Booking slot At 20% Discount, Use Code
                 <span className="text-primary"> OFF20</span>
               </h5>
-              <Link
-                href="/shop"
+              <button
+                onClick={handleWhatsAppClick}
                 className="duration-400 bg-white px-6 py-3 text-lg font-semibold text-primary ease-in hover:opacity-80"
               >
                 Booking Now
-              </Link>
+              </button>
             </div>
           </div>
           <div className="hidden xl:block"></div>

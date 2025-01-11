@@ -1,4 +1,5 @@
 "use client";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -7,6 +8,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "./Banner.css";
 
 const Banner = () => {
+
+   const handleWhatsAppClick = () => {
+     const phoneNumber = "01308494176";
+     const message =
+       "Step into tranquility. Welcome to Beauty Point Spa Center – the perfect escape for mind, body, and soul.";
+     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+     window.open(whatsappUrl, "_blank");
+   };
+
   return (
     <div className="w-full" id="home">
       <Swiper
@@ -49,7 +60,10 @@ const Banner = () => {
                     We are dedicated to rejuvenating your mind and body through
                     exceptional spa experiences.
                   </p>
-                  <button className="bg-primary px-5 py-2 font-bold text-white duration-300 hover:bg-white hover:text-primary">
+                  <button
+                    onClick={handleWhatsAppClick}
+                    className="bg-primary px-5 py-2 font-bold text-white duration-300 hover:bg-white hover:text-primary"
+                  >
                     Booking Now
                   </button>
                 </div>
@@ -81,7 +95,10 @@ const Banner = () => {
                     Passionate about crafting moments of pure relaxation and
                     well-being just for you.
                   </p>
-                  <button className="bg-primary px-5 py-2 font-bold text-white duration-300 hover:bg-white hover:text-primary">
+                  <button
+                    onClick={handleWhatsAppClick}
+                    className="bg-primary px-5 py-2 font-bold text-white duration-300 hover:bg-white hover:text-primary"
+                  >
                     Booking Now
                   </button>
                 </div>
@@ -113,7 +130,10 @@ const Banner = () => {
                     We believe in restoring your inner calm through personalized
                     care and attention.
                   </p>
-                  <button className="bg-primary px-5 py-2 font-bold text-white duration-300 hover:bg-white hover:text-primary">
+                  <button
+                    onClick={handleWhatsAppClick}
+                    className="bg-primary px-5 py-2 font-bold text-white duration-300 hover:bg-white hover:text-primary"
+                  >
                     Booking Now
                   </button>
                 </div>

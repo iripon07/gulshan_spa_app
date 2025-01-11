@@ -23,9 +23,9 @@ const Footer = () => {
           <div>
             <p className="mb-7 text-lg text-[#323232]">About us</p>
             <p className="text-sm text-[#757575]">
-              176 W street name, New York, NY 10014 <br /> Email:
-              info@yoursite.com <br />
-              Telephone: +1(800)123-4566
+              Gulshan-1, Road Number: #37,Dhaka-1212 <br /> Email:
+              info@gulshanpointspacenter <br />
+              Telephone: 01308494176
             </p>
           </div>
         </div>
@@ -40,8 +40,9 @@ const Footer = () => {
 
         <div className="text-center text-sm">
           <p className="text-secondary">
-            <span className="text-primary">Gulshan Spa</span> © 2024 All Rights
-            Reserved <span className="text-[#f9a392]">Terms of Use</span> and
+            <span className="text-primary">Beauty Point Spa Center</span> ©
+            2024 All Rights Reserved{" "}
+            <span className="text-[#f9a392]">Terms of Use</span> and
             <span className="text-primary"> Privacy Policy</span>
           </p>
         </div>

@@ -9,6 +9,14 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+   const handleWhatsAppClick = () => {
+     const phoneNumber = "01308494176"; 
+     const message =
+       "Step into tranquility. Welcome to Beauty Point Spa Center – the perfect escape for mind, body, and soul."; 
+     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+     window.open(whatsappUrl, "_blank");
+   };
 
   return (
     <div className="sticky top-0 z-50 border-b border-primary bg-white">
@@ -41,12 +49,12 @@ const Navbar = () => {
             <Link href="#contact" className="text-primary hover:text-gray-400">
               Contact
             </Link>
-            <Link
-              href="/booking"
+            <button
+              onClick={handleWhatsAppClick}
               className="border border-primary bg-white px-4 py-2 font-poppins font-semibold text-primary duration-300 hover:bg-primary hover:text-white"
             >
               Booking Now
-            </Link>
+            </button>
           </div>
 
           <div className="flex items-center md:hidden">
@@ -72,12 +80,12 @@ const Navbar = () => {
             </Link>
 
             <div className="flex items-center justify-center gap-6">
-              <Link
-                href="/booking"
+              <button
+                onClick={handleWhatsAppClick}
                 className="border border-primary bg-white px-2 py-1 font-poppins text-xl font-semibold text-primary duration-300 hover:bg-primary hover:text-white md:px-4 md:py-2"
               >
                 Booking Now
-              </Link>
+              </button>
 
               <div onClick={() => setOpen(!open)}>
                 {open ? <AiOutlineClose /> : <GiHamburgerMenu />}

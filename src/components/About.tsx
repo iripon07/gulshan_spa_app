@@ -8,6 +8,16 @@ import { FaArrowDownUpLock } from "react-icons/fa6";
 import { GiSpiralArrow } from "react-icons/gi";
 
 const About = () => {
+
+   const handleWhatsAppClick = () => {
+     const phoneNumber = "01308494176";
+     const message =
+       "Step into tranquility. Welcome to Beauty Point Spa Center – the perfect escape for mind, body, and soul.";
+     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+     window.open(whatsappUrl, "_blank");
+   };
+
   return (
     <div id="about" className="container mx-auto p-6">
       <div className="flex flex-col gap-6 lg:flex-row">
@@ -22,7 +32,7 @@ const About = () => {
             <GiSpiralArrow className="ml-4 text-2xl" />
           </div>
           <p className="my-3 font-handwriting text-5xl font-medium text-primary">
-            Gulshan Spa Center
+            Beauty Point Spa Center
           </p>
           <p className="font-poppins text-5xl font-semibold text-black">
             We Provide Skincare Secrets for Radiance Unveiled
@@ -52,7 +62,10 @@ const About = () => {
               </div>
             </div>
           </div>
-          <button className="flex items-center justify-between border-[1px] border-primary px-3 py-2 text-lg font-medium text-primary duration-300 hover:bg-primary hover:text-white">
+          <button
+            onClick={handleWhatsAppClick}
+            className="flex items-center justify-between border-[1px] border-primary px-3 py-2 text-lg font-medium text-primary duration-300 hover:bg-primary hover:text-white"
+          >
             More About Us <FaArrowDownUpLock className="ml-2" />
           </button>
         </div>
